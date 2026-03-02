@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Личный дневник</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    .task { border: 1px solid #ccc; padding: 10px; margin: 10px 0; }
+    .done { background-color: #e0ffe0; text-decoration: line-through; }
+  </style>
+</head>
+<body>
+  <h1>Мой личный дневник</h1>
+  
+  <div id="tasks-container"></div>
+  
+  <h3>Добавить новое задание:</h3>
+  <input type="text" id="new-title" placeholder="Название">
+  <input type="text" id="new-desc" placeholder="Описание">
+  <input type="date" id="new-date">
+  <button onclick="addTask()">Добавить</button>
+  
+  <script src="app.js"></script>
+</body>
+</html>
